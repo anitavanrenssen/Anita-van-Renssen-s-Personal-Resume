@@ -1,0 +1,38 @@
+/* STYLING
+
+COLORS
+#474b4f
+#e1c167 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #474b4f;
+  color: #fff;
+  text-align: center;
+}
+
+.profile-img {
+  width: 20%;
+  border: 3px solid #e1c167;
+  border-radius: 50%;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.sidebar {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #e1c167;
+}
