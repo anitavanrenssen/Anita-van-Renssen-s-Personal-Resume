@@ -5,46 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume of Anita van Renssen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="/css/stylesheet.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header>
+    <header class="header">
+      <div>
       <img
         class="profile-img"
         src="images/profilephoto.jpg"
         alt="Profile photo of Anita van Renssen"
       />
-      <h1>Anita van Renssen</h1>
+    </div>
+    <div class="header-content">
+      <h1 class="name">Anita van Renssen</h1>
       <p>From General Dentist to aspiring Front End Developer</p>
       <ul class="contact-details">
         <li>083 561 8957</li>
         <li>anita.p.ap70@gmail.com</li>
         <li>Oakglen, Bellville, Western Cape</li>
       </ul>
+    </div>
     </header>
 
-    <aside>
-      <nav class="sidebar">
-        <h2>Menu</h2>
-        <a href="#">Experience</a>
-        <a href="#">Education</a>
-        <a href="#">Skills</a>
-        <a href="#">Interests</a>
+    <div class="menu-main">
+    <aside class="sidebar">
+      <nav class="nav-menu">
+        <h2 id="menu" class="heading-secondary">Menu</h2>
+        <ul class="navlist">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#interests">Interests</a></li>
+      </ul>
       </nav>
+
+      <div class="sidebar-content">
+      <section>
+        <h2 id="skills" class="heading-secondary">Skills</h2>
+        <ul class="contentlist">
+          <li>Afrikaans and English</li>
+          <li>Communication and listening skills</li>
+          <li>Organizational skills</li>
+          <li>Problem solving</li>
+          <li>Good concentration levels</li>
+          <li>Detail oriented</li>
+          <li>Good teamwork ability</li>
+          <li>Continuous learning</li>
+        </ul>
+
+        <h2 id="software" class="heading-secondary">Software</h2>
+        <ul class="contentlist">
+          <li>Adobe InDesign</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Lightroom</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="interests" class="heading-secondary">Interests</h2>
+        <ul class="contentlist">
+          <li>Wildlife and landscape photography</li>
+          <li>Art and design</li>
+          <li>Hiking</li>
+          <li>Soccer</li>
+          <li>Local travelling</li>
+        </ul>
+      </section>
+    </div>
     </aside>
 
     <main>
-      <section>
-        <h2>Experience</h2>
+      <div class="content">
 
-        <h3>Locum Dentist, Jul 2021 - present</h3>
-        <h3>Allmed Healthcare Professionals, Western Cape</h3>
+<section>
+  <h2 id="about-me" class="heading-secondary">About Me</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto accusamus aut consequuntur, obcaecati praesentium fugit, qui unde cum eligendi earum, molestias veritatis atque est aspernatur laboriosam animi voluptatibus doloremque.</p>
+</section>
+
+      <section>
+        <h2 id="experience" class="heading-secondary">Experience</h2>
+
+        <h3 class="heading-tertiary">Locum Dentist, Jul 2021 - present</h3>
+        <h3 class="heading-tertiary">Allmed Healthcare Professionals, Western Cape</h3>
         <p>
           Registered for emergency locum dentist shifts in the public sector
         </p>
         <p>Results:</p>
-        <ul>
+        <ul class="contentlist">
           <li>
             Fast adaptability in several new and different work environments
           </li>
@@ -52,8 +107,8 @@
           <li>Good communication skills to ensure fast adaptability</li>
         </ul>
 
-        <h3>Volunteer Dentist, Jun 2021 - Jul 2021</h3>
-        <h3>
+        <h3 class="heading-tertiary">Volunteer Dentist, Jun 2021 - Jul 2021</h3>
+        <h3 class="heading-tertiary">
           <a href="https://www.tshembafoundation.org/" target="_blank"
             >Tshemba Foundation</a
           >, Acornhoek, Mpumalanga
@@ -62,7 +117,7 @@
           Delivered voluntary dental services at Tintswalo government hospital,
           Dwarsloop, Hluvukani and Hlokomela clinics
         </p>
-        <ul>
+        <ul class="contentlist">
           <li>Fast adaptability in a new and different work environment</li>
           <li>
             Strengthened ability to work and communicate with different cultures
@@ -81,14 +136,14 @@
           </li>
         </ul>
 
-        <h3>General Dentist, Feb 2019 - May 2021</h3>
-        <h3>Dr. Chantel Bouwer, Graanendal, Durbanville, Western Cape</h3>
+        <h3 class="heading-tertiary">General Dentist, Feb 2019 - May 2021</h3>
+        <h3 class="heading-tertiary">Dr. Chantel Bouwer, Graanendal, Durbanville, Western Cape</h3>
         <p>
           Delivered all general dental services in the private sector, as well
           as working with the latest CAD/CAM CEREC technology and management of
           school outreach programmes for oral health promotion
         </p>
-        <ul>
+        <ul class="contentlist">
           <li>
             Increased the practice income growth with 16% during a challenging
             COVID period
@@ -120,19 +175,19 @@
           </li>
         </ul>
 
-        <h3>Freelance Graphic Designer, Feb 2017 - Nov 2019</h3>
-        <h3>Remote, South Africa</h3>
+        <h3 class="heading-tertiary">Freelance Graphic Designer, Feb 2017 - Nov 2019</h3>
+        <h3 class="heading-tertiary">Remote, South Africa</h3>
         <p>Design of wedding stationary</p>
-        <ul>
+        <ul class="contentlist">
           <li>Improvement of listening skills to ensure client satisfaction</li>
           <li>Development of Adobe Illustrator skills</li>
           <li>Gain of valuable design concepts and knowledge</li>
         </ul>
 
-        <h3>Volunteer Graphic Designer, Jan 2017 - Nov 2019</h3>
-        <h3>Olielamp Jeugblad, Vrye Gereformeerde Kerke Suid-Afrika</h3>
+        <h3 class="heading-tertiary">Volunteer Graphic Designer, Jan 2017 - Nov 2019</h3>
+        <h3 class="heading-tertiary">Olielamp Jeugblad, Vrye Gereformeerde Kerke Suid-Afrika</h3>
         <p>Monthly booklet layout design for the youth of our church group</p>
-        <ul>
+        <ul class="contentlist">
           <li>Development of Adobe InDesign skills</li>
           <li>Learnt to use Trello for work management between teams</li>
           <li>
@@ -141,26 +196,26 @@
           </li>
         </ul>
 
-        <h3>General Dentist, Jan 2018 - Dec 2018</h3>
-        <h3>McGyver Dental, Oakdale, Bellville, Western Cape</h3>
+        <h3 class="heading-tertiary">General Dentist, Jan 2018 - Dec 2018</h3>
+        <h3 class="heading-tertiary">McGyver Dental, Oakdale, Bellville, Western Cape</h3>
         <p>
           Delivered all general dental services in the private sector in a small
           family dental practice
         </p>
-        <ul>
+        <ul class="contentlist">
           <li>Worked with patients of all ages and personalities</li>
           <li>Conflict management in the workplace</li>
           <li>Critical thinking and quick problem solving skills</li>
         </ul>
 
-        <h3>Community Service Dentist, Jan 2017 - Dec 2017</h3>
-        <h3>Shongwe Hospital and Ntunda clinic, Schoemansdal, Mpumalanga</h3>
+        <h3 class="heading-tertiary">Community Service Dentist, Jan 2017 - Dec 2017</h3>
+        <h3 class="heading-tertiary">Shongwe Hospital and Ntunda clinic, Schoemansdal, Mpumalanga</h3>
         <p>
           Delivered basic and emergency dental services in the public sector as
           part of my community service year. Management of the school oral
           health promotion programme and management of monthly clinical rosters
         </p>
-        <ul>
+        <ul class="contentlist">
           <li>
             Developed ability to work and communicate with different cultures
             and personalities
@@ -179,8 +234,8 @@
           </li>
         </ul>
 
-        <h3>Student Dentist, May 2016</h3>
-        <h3>
+        <h3 class="heading-tertiary">Student Dentist, May 2016</h3>
+        <h3 class="heading-tertiary">
           <a
             href="https://www.roche.co.za/en/corporate-citizenship/phelophepa-healthcare-train.html"
             target="_blank"
@@ -191,16 +246,16 @@
           Delivered voluntary emergency dental services on the train under
           clinical supervision
         </p>
-        <ul>
+        <ul class="contentlist">
           <li>Development of listening skills and following of instructions</li>
           <li>Fast adaptability in a challenging work environment</li>
         </ul>
       </section>
 
       <section>
-        <h2>Education</h2>
-        <h3>Intro to Web Certificate, 2022</h3>
-        <h3>
+        <h2 id="education" class="heading-secondary">Education </h2>
+        <h3 class="heading-tertiary">Intro to Web Certificate, 2022</h3>
+        <h3 class="heading-tertiary">
           <a href="https://www.codespace.co.za/" target="_blank"
             >CodeSpace Academy</a
           >
@@ -210,17 +265,17 @@
           develop basic one page websites, together with the use of GitHub
         </p>
 
-        <h3>Graphic Design Certificate, 2019</h3>
-        <h3>University of Cape Town</h3>
+        <h3 class="heading-tertiary">Graphic Design Certificate, 2019</h3>
+        <h3 class="heading-tertiary">University of Cape Town</h3>
         <p>
           10 week short course through GetSmarter which covered industry-aligned
           skills for print and digital media design, with the use of Adobe
           Illustrator
         </p>
 
-        <h3>Bachelor of Dental Surgery Degree, 2016</h3>
-        <h3>University of Pretoria</h3>
-        <ul>
+        <h3 class="heading-tertiary">Bachelor of Dental Surgery Degree, 2016</h3>
+        <h3 class="heading-tertiary">University of Pretoria</h3>
+        <ul class="contentlist">
           <li>
             Distinction in the main module, Odontology. Comprised of the
             subjects Basic Restorative Dentistry, Endodontics, Paedodontics,
@@ -229,44 +284,46 @@
           <li>Distinction in Community Dentistry</li>
         </ul>
 
-        <h3>Matric Certificate, 2011</h3>
-        <h3>Hoërskool Oos-Moot</h3>
+        <h3 class="heading-tertiary">Matric Certificate, 2011</h3>
+        <h3 class="heading-tertiary">Hoërskool Oos-Moot</h3>
         <p>
           Distinctions in Physical Sciences, Biological Sciences, Math, Business
           Studies, Afrikaans, English, Life Orientation
         </p>
       </section>
-
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>Afrikaans and English</li>
-          <li>Communication and listening skills</li>
-          <li>Organizational skills</li>
-          <li>Problem solving</li>
-          <li>Good concentration levels</li>
-          <li>Detail oriented</li>
-          <li>Good teamwork ability</li>
-          <li>Continuous learning</li>
-          <li></li>
-          <li>Adobe InDesign</li>
-          <li>Adobe Illustrator</li>
-          <li>Adobe Lightroom</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Interests</h2>
-        <ul>
-          <li>Wildlife and landscape photography</li>
-          <li>Art and design</li>
-          <li>Hiking</li>
-          <li>Soccer</li>
-          <li>Local travelling</li>
-        </ul>
-      </section>
+    </div>
     </main>
+  </div>
+
+    <footer>
+
+      <a href="https://github.com/anitavanrenssen"  target="_blank">
+        <img class="icons"
+          src="/images/logo-github.svg"
+          alt="GitHub logo"
+        />
+
+      <a
+        href="https://www.linkedin.com/in/anita-pouwels-76384574/"
+        target="_blank"
+      >
+        <img class="icons" src="/images/logo-linkedin.svg" alt="LinkedIn logo" />
+      </a>
+
+    </a>
+    <a href="https://www.instagram.com/anitavanrenssen/" target="_blank">
+      <img class="icons"
+        src="/images/logo-instagram.svg"
+        alt="Instagram logo"
+      />
+    </a>
+
+      <a class="icons" href="https://www.facebook.com/anita.pouwels.9" target="_blank">
+        <img class="icons"
+          src="/images/logo-facebook.svg"
+          alt="Facebook logo"
+        />
+     
+    </footer>
   </body>
 </html>

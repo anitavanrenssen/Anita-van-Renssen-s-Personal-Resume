@@ -11,19 +11,39 @@ COLORS
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  line-height: 1.4;
+  font-size: 20px;
 }
 
-header {
-  background-color: #474b4f;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  padding: 48px;
+  background-color: #2a261d;
   color: #fff;
+}
+
+.header-content {
   text-align: center;
 }
 
 .profile-img {
-  width: 20%;
-  border: 3px solid #e1c167;
+  width: 250px;
+  border: 3px solid #ddcba6;
   border-radius: 50%;
+}
+
+.name {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 400;
+  color: #ddcba6;
 }
 
 .contact-details {
@@ -32,9 +52,70 @@ header {
   list-style-type: none;
 }
 
+.heading-secondary {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin: 64px 0 32px 0;
+}
+
+.heading-tertiary {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.heading-tertiary a {
+  color: #333;
+}
+
+.nav-menu {
+  padding: 32px;
+  width: 350px;
+}
+
+.navlist {
+  list-style-type: none;
+  list-style-position: inside;
+  line-height: 1.8;
+  margin-bottom: 64px;
+}
+
+.navlist a {
+  color: #333;
+}
+
+.sidebar-content {
+  padding: 32px;
+}
+
+.menu-main {
+  display: flex;
+}
+
 .sidebar {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 12px;
-  background-color: #e1c167;
+  background-color: #d4be90;
+  width: 350px;
+  flex: 1;
+}
+
+.content {
+  padding: 32px;
+  flex: 2;
+}
+
+#about-me,
+#experience,
+#education {
+  border-bottom: 2px solid #d4be90;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: #2a261d;
+  text-align: center;
+  padding: 32px;
+}
+
+.icons {
+  width: 32px;
+  fill: #fff;
 }
