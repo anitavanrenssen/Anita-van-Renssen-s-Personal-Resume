@@ -14,7 +14,7 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
-  color: #333;
+  color: #2a261d;
   line-height: 1.4;
   font-size: 20px;
 }
@@ -22,15 +22,15 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 18px;
-  padding: 48px;
+  gap: 50px;
+  padding: 50px;
   background-color: #2a261d;
-  color: #fff;
+  color: #ddcba6;
 }
 
 .header-content {
-  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 
 .profile-img {
@@ -39,23 +39,33 @@ body {
   border-radius: 50%;
 }
 
-.name {
+.header-name {
   text-transform: uppercase;
   letter-spacing: 10px;
+  font-size: 48px;
   font-weight: 400;
-  color: #ddcba6;
 }
 
-.contact-details {
-  display: flex;
-  justify-content: space-around;
+.header-intro {
+  font-size: 22px;
+}
+
+.header-contact {
   list-style-type: none;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.header-icons {
+  color: rgb(221, 203, 166, 0.6);
+  padding-right: 18px;
 }
 
 .heading-secondary {
   text-transform: uppercase;
   letter-spacing: 8px;
-  margin: 64px 0 32px 0;
+  /* margin: 64px 0 32px 0; */
 }
 
 .heading-tertiary {
@@ -74,9 +84,9 @@ body {
 
 .navlist {
   list-style-type: none;
-  list-style-position: inside;
-  line-height: 1.8;
+  line-height: 2;
   margin-bottom: 64px;
+  text-transform: uppercase;
 }
 
 .navlist a {
@@ -103,19 +113,38 @@ body {
 }
 
 #about-me,
-#experience,
+/* #experience, */
 #education {
   border-bottom: 2px solid #d4be90;
   padding-bottom: 10px;
 }
 
-footer {
+.heading-icon-experience {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 2px solid #d4be90;
+}
+
+.content-icons {
+  border: 2px solid #2a261d;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #ddcba6;
+}
+
+.footer {
   background-color: #2a261d;
   text-align: center;
   padding: 32px;
 }
 
-.icons {
-  width: 32px;
-  fill: #fff;
+.footer a {
+  text-decoration: none;
+  margin: 4px;
+}
+
+.footer-icons {
+  font-size: 48px;
+  color: #ddcba6;
 }
