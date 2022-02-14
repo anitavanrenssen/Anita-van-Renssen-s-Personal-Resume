@@ -72,9 +72,9 @@ body {
   border-bottom: 2px solid #cfbda4;
 }
 
-.heading-tertiary {
+.heading-tertiary { 
   margin: 0;
-  padding-bottom: 0;
+  padding-bottom: 0; /*reason: to bring two h3 headings closer to each other to unite them*/
 }
 
 .heading-tertiary a {
@@ -84,7 +84,7 @@ body {
 }
 
 #menu {
-  padding-left: 40px;
+  padding-left: 40px; /*levelling with navigation list towards center of sidebar*/
 }
 
 .nav-menu {
@@ -140,7 +140,7 @@ body {
 
 .about-me-text,
 .contentlist {
-  margin-top: 0;
+  margin-top: 0; /*consistent spacing underneath h2 headings*/
 }
 
 .skills-software,
@@ -150,7 +150,7 @@ body {
 }
 
 .softwareblock {
-  flex: auto;
+  flex: auto; /*consistent underline stretch*/
 }
 
 .footer {
