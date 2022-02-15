@@ -42,6 +42,7 @@ body {
   font-size: 54px;
   font-weight: 400;
   letter-spacing: 10px;
+  margin: 0 0 12px 0;
 }
 
 .header-intro {
@@ -157,6 +158,24 @@ body {
   gap: 32px;
 }
 
+.content-section {
+  display: flex;
+}
+
+.heading-tertiary-date {
+  width: 130px;
+  flex-shrink: 0;
+}
+
+.content-text {
+  padding-left: 20px;
+  border-left: 2px solid rgb(207, 189, 164, 0.6);
+}
+
+.contentblock ul {
+  padding-left: 20px;
+}
+
 .about-me-text,
 .contentlist {
   margin-top: 0; /*consistent spacing underneath h2 headings*/
@@ -178,16 +197,6 @@ body {
   background-color: #292621;
 }
 
-/* .footer a {
-  text-decoration: none;
-  margin: 4px;
-}
-
-.footer-icons {
-  font-size: 48px;
-  color: #cfbda4;
-} */
-
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
@@ -200,3 +209,4 @@ body {
 .footer-link:active {
   color: #fff;
 }
+
