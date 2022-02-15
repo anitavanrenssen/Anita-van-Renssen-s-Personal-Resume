@@ -108,6 +108,13 @@ body {
   color: #292621;
 }
 
+.navlist a:hover {
+  padding: 6px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(41, 38, 33, 0.9);
+}
+
 .sidebar-main {
   display: flex;
 }
@@ -168,5 +175,4 @@ body {
   font-size: 48px;
   color: #cfbda4;
 }
-
 
