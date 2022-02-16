@@ -1,6 +1,5 @@
-/* STYLING CHOICES
 
-COLORS
+/* COLORS
 - dark: #292621
 - light: #cfbda4 */
 
@@ -16,6 +15,8 @@ body {
   line-height: 1.4;
   color: #292621;
 }
+
+/*****HEADER*****/
 
 .header {
   display: flex;
@@ -73,6 +74,50 @@ body {
   color: rgb(207, 189, 164, 0.7);
 }
 
+/*****NAVIGATION MENU*****/
+
+.sidebar-main {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #cfbda4;
+}
+
+#menu {
+  padding-left: 40px; /*levelling with navigation list towards center of sidebar*/
+}
+
+.nav-menu {
+  position: sticky;
+  top: 0;
+  width: 350px;
+  padding: 48px;
+}
+
+.navlist {
+  text-transform: uppercase;
+  list-style-type: none;
+  line-height: 3;
+  letter-spacing: 1px;
+  margin-bottom: 72px;
+}
+
+.navlist a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  color: #292621;
+}
+
+.navlist a:hover {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(41, 38, 33, 0.9);
+}
+
+/*****MAIN CONTENT*****/
+
 .heading-secondary {
   text-transform: uppercase;
   letter-spacing: 8px;
@@ -90,50 +135,15 @@ body {
   padding-bottom: 0; /*reason: to bring two h3 headings closer to each other to unite them*/
 }
 
+.heading-tertiary-date {
+  width: 130px;
+  flex-shrink: 0;
+}
+
 .heading-tertiary a {
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
   color: #292621;
-}
-
-#menu {
-  padding-left: 40px; /*levelling with navigation list towards center of sidebar*/
-}
-
-.nav-menu {
-  position: sticky;
-  top: 0;
-  width: 350px;
-  padding: 48px;
-}
-
-.navlist {
-  text-transform: uppercase;
-  list-style-type: none;
-  line-height: 2;
-  letter-spacing: 1px;
-  margin-bottom: 72px;
-}
-
-.navlist a {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-  color: #292621;
-}
-
-.navlist a:hover {
-  padding: 6px;
-  text-decoration: none;
-  color: #fff;
-  background-color: rgb(41, 38, 33, 0.9);
-}
-
-.sidebar-main {
-  display: flex;
-}
-
-.sidebar {
-  background-color: #cfbda4;
 }
 
 .content {
@@ -158,23 +168,17 @@ body {
   gap: 32px;
 }
 
-.content-section {
-  display: flex;
+.contentblock ul {
+  padding-left: 20px;
 }
 
-.heading-tertiary-date {
-  width: 130px;
-  flex-shrink: 0;
+.content-section {
+  display: flex;
 }
 
 .content-text {
   padding-left: 20px;
   border-left: 2px solid rgb(207, 189, 164, 0.6);
-}
-
-.contentblock ul {
-  padding-left: 20px;
-  /* margin-bottom: 0; */
 }
 
 .about-me-text,
@@ -185,12 +189,14 @@ body {
 .skills-software,
 .interest-list {
   display:flex;
-  gap: 64px;
+  gap: 72px;
 }
 
 .softwareblock {
   flex: auto; /*consistent underline stretch*/
 }
+
+/*****FOOTER*****/
 
 .footer {
   text-align: center;
